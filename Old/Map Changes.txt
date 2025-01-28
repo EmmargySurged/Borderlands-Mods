@@ -1,0 +1,277 @@
+###
+### Name: Balands - Quality-of-Life Adjustments
+### Version: 1.5.5
+### Author: Aaron0000
+### Contact: Just look for me on Shadowevil's Discord (Shadow's Hideout).
+### Categories: qol
+###
+### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+### License URL: https://creativecommons.org/licenses/by-sa/4.0/
+###
+
+# Move the Atlas HQ Fast Travel to the Upper Courtyard
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.FastTravelStationObject_1547.SkeletalMesh,RelativeLocation,0,,(x=-10262.0,y=-2165.051,z=31704.0)
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.FastTravelStationObject_1547.SkeletalMesh,RelativeRotation,0,,(pitch=0.0,yaw=89.99982,roll=0.0)
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.FastTravelStationObject_1547.ActivationArea,RelativeLocation,0,,(x=1198.996,y=129.00195,z=0.0)
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.FastTravelStationObject_1547.ActivationArea,DetectionRadius,0,,2700.301
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.FastTravelStationObject_1547.ActivationArea,DetectionHalfHeight,0,,500.0
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.FastTravelStationObject_1547.OakTravelStationResurrectComponent,RelativeLocation,0,,(x=1250.0,y=1000.0,z=0.0)
+SparkPatchEntry,(1,1,0,),/Game/GameData/ZoneMap/ZoneMapData/ZoneMapData_AtlasHQ.ZoneMapData_AtlasHQ,ZoneMapPOIList.ZoneMapPOIList[3].PointOfInterestTransform.Translation,0,,(x=-10262.0,y=-2165.051,z=31704.0)
+
+# Move the New-U Station to the original location of the Fast Travel station.
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.Checkpoint_Office.SkeletalMesh,RelativeLocation,0,,(x=12154.898,y=8611.153,z=-1699.1996)
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.Checkpoint_Office.SkeletalMesh,RelativeRotation,0,,(pitch=0.0,yaw=135.63383,roll=0.0)
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.Checkpoint_Office.ActivationArea,RelativeLocation,0,,(x=1786.0347,y=625.00183,z=-155.0)
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.Checkpoint_Office.ActivationArea,DetectionRadius,0,,2700.301
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.Checkpoint_Office.ActivationArea,DetectionHalfHeight,0,,500.0
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ/AtlasHQ_Courtyard_Dynamic.AtlasHQ_Courtyard_Dynamic:PersistentLevel.Checkpoint_Office.OakTravelStationResurrectComponent,RelativeLocation,0,,(x=0,y=0,z=0)
+
+# Atlas HQ Courtyard Shortcut
+SparkLevelPatchEntry,(1,6,0,AtlasHQ_P),/Game/Maps/Zone_1/AtlasHQ,/Game/LevelArt/Environments/Promethea/AtlasHQ/Props/Food_Cart/Model/Mesh,SM_Food_Cart,91,"9641.000000,7275.000000,-1150.000000|0.000000,45.000000,0.000000|1.000000,1.000000,1.000000",0
+
+# Add Trial Names to the Galaxy Map Proving Grounds.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-1.PlanetMapData_ProvingGround-1,SubHeader,0,,Proving Grounds - Survival
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-4.PlanetMapData_ProvingGround-4,SubHeader,0,,Proving Grounds - Fervor
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-5.PlanetMapData_ProvingGround-5,SubHeader,0,,Proving Grounds - Cunning
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-6.PlanetMapData_ProvingGround-6,SubHeader,0,,Proving Grounds - Supremacy
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-7.PlanetMapData_ProvingGround-7,SubHeader,0,,Proving Grounds - Discipline
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-8.PlanetMapData_ProvingGround-8,SubHeader,0,,Proving Grounds - Instinct
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-1.PlanetMapData_ProvingGround-1,DisplayName,0,,Gradient of Dawn (Survival)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-4.PlanetMapData_ProvingGround-4,DisplayName,0,,The Skydrowned Pulpit (Fervor)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-5.PlanetMapData_ProvingGround-5,DisplayName,0,,Ghostlight Beacon (Cunning)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-6.PlanetMapData_ProvingGround-6,DisplayName,0,,The Hall Obsidian (Supremacy)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-7.PlanetMapData_ProvingGround-7,DisplayName,0,,Precipice Anchor (Discipline)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/GameData/ZoneMap/PlanetMapData/PlanetMapData_ProvingGround-8.PlanetMapData_ProvingGround-8,DisplayName,0,,Wayward Tether (Instinct)
+
+@title Black Markets Everywhere
+@version 1.0.0
+@author Apocalyptech
+@contact https://apocalyptech.com/contact.php
+@categories maps, vendor
+
+@license Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+@license-url https://creativecommons.org/licenses/by-sa/4.0/
+
+###
+### Sets all potential Black Market vending machine spawns to be active, and
+### removes their respawn timer (which ordinarily prevents it from respawning
+### for 30 minutes after being used).  Maps which can contain the machines
+### all have 2-3 spawn locations for the machine.
+###
+### Generated by gen_black_markets_everywhere.py
+###
+
+###
+### Droughts
+###
+
+SparkLevelPatchEntry,(1,1,1,Prologue_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_0/Prologue/Prologue_SubmapPatch.Prologue_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Prologue_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_0/Prologue/Prologue_SubmapPatch.Prologue_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Prologue_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_0/Prologue/Prologue_SubmapPatch.Prologue_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Ascension Bluff
+###
+
+SparkLevelPatchEntry,(1,1,1,Sacrifice_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_0/Sacrifice/Sacrifice_SubmapPatch.Sacrifice_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Sacrifice_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_0/Sacrifice/Sacrifice_SubmapPatch.Sacrifice_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Sacrifice_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_0/Sacrifice/Sacrifice_SubmapPatch.Sacrifice_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Atlas HQ
+###
+
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/AtlasHQ/AtlasHQ_SubmapPatch.AtlasHQ_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/AtlasHQ/AtlasHQ_SubmapPatch.AtlasHQ_SubmapPatch:PersistentLevel.OakSpawner_4.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,AtlasHQ_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/AtlasHQ/AtlasHQ_SubmapPatch.AtlasHQ_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Meridian Metroplex
+###
+
+SparkLevelPatchEntry,(1,1,1,City_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/City/City_SubmapPatch.City_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,City_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/City/City_SubmapPatch.City_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,City_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/City/City_SubmapPatch.City_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Neon Arterial
+###
+
+SparkLevelPatchEntry,(1,1,1,CityVault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/CityVault/CityVault_SubmapPatch.CityVault_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,CityVault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/CityVault/CityVault_SubmapPatch.CityVault_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Athenas
+###
+
+SparkLevelPatchEntry,(1,1,1,Monastery_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Monastery/Monastery_SubmapPatch.Monastery_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Monastery_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Monastery/Monastery_SubmapPatch.Monastery_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Monastery_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Monastery/Monastery_SubmapPatch.Monastery_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Skywell-27
+###
+
+SparkLevelPatchEntry,(1,1,1,OrbitalPlatform_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/OrbitalPlatform/OrbitalPlatform_SubmapPatch.OrbitalPlatform_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,OrbitalPlatform_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/OrbitalPlatform/OrbitalPlatform_SubmapPatch.OrbitalPlatform_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,OrbitalPlatform_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/OrbitalPlatform/OrbitalPlatform_SubmapPatch.OrbitalPlatform_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+
+###
+### Meridian Outskirts
+###
+
+SparkLevelPatchEntry,(1,1,1,Outskirts_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Outskirts/Outskirts_SubmapPatch.Outskirts_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Outskirts_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Outskirts/Outskirts_SubmapPatch.Outskirts_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Outskirts_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Outskirts/Outskirts_SubmapPatch.Outskirts_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Lectra City
+###
+
+SparkLevelPatchEntry,(1,1,1,Towers_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Towers/Towers_SubmapPatch.Towers_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Towers_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Towers/Towers_SubmapPatch.Towers_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Towers_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_1/Towers/Towers_SubmapPatch.Towers_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Jakobs Estate
+###
+
+SparkLevelPatchEntry,(1,1,1,Mansion_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Mansion/Mansion_SubmapPatch.Mansion_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Mansion_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Mansion/Mansion_SubmapPatch.Mansion_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Mansion_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Mansion/Mansion_SubmapPatch.Mansion_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Ambermire
+###
+
+SparkLevelPatchEntry,(1,1,1,MarshFields_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Marshfields/Marshfields_SubmapPatch.Marshfields_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,MarshFields_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Marshfields/Marshfields_SubmapPatch.Marshfields_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,MarshFields_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Marshfields/Marshfields_SubmapPatch.Marshfields_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Anvil
+###
+
+SparkLevelPatchEntry,(1,1,1,Prison_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Prison/Prison_SubmapPatch.Prison_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Prison_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Prison/Prison_SubmapPatch.Prison_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Prison_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Prison/Prison_SubmapPatch.Prison_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Voracious Canopy
+###
+
+SparkLevelPatchEntry,(1,1,1,Watership_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Watership/Watership_SubmapPatch.Watership_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Watership_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Watership/Watership_SubmapPatch.Watership_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Watership_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Watership/Watership_SubmapPatch.Watership_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+
+###
+### Floodmoor Basin
+###
+
+SparkLevelPatchEntry,(1,1,1,Wetlands_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Wetlands/Wetlands_SubmapPatch.Wetlands_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Wetlands_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Wetlands/Wetlands_SubmapPatch.Wetlands_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Wetlands_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/Wetlands/Wetlands_SubmapPatch.Wetlands_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+
+###
+### Blackbarrel Cellars
+###
+
+SparkLevelPatchEntry,(1,1,1,WetlandsVault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/WetlandsVault/WetlandsVault_SubmapPatch.WetlandsVault_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,WetlandsVault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/WetlandsVault/WetlandsVault_SubmapPatch.WetlandsVault_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,WetlandsVault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_2/WetlandsVault/WetlandsVault_SubmapPatch.WetlandsVault_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Devil's Razor
+###
+
+SparkLevelPatchEntry,(1,1,1,Desert_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Desert/Desert_SubmapPatch.Desert_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Desert_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Desert/Desert_SubmapPatch.Desert_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Desert_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Desert/Desert_SubmapPatch.Desert_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+
+###
+### Cathedral of the Twin Gods
+###
+
+SparkLevelPatchEntry,(1,1,1,Desertvault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/DesertVault/DesertVault_SubmapPatch.DesertVault_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Desertvault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/DesertVault/DesertVault_SubmapPatch.DesertVault_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Desertvault_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/DesertVault/DesertVault_SubmapPatch.DesertVault_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+
+###
+### Konrad's Hold
+###
+
+SparkLevelPatchEntry,(1,1,1,Mine_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Mine/Mine_SubmapPatch.Mine_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Mine_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Mine/Mine_SubmapPatch.Mine_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Mine_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Mine/Mine_SubmapPatch.Mine_SubmapPatch:PersistentLevel.OakSpawner_5.SpawnerComponent,bEnabled,0,,True
+
+###
+### Splinterlands
+###
+
+SparkLevelPatchEntry,(1,1,1,Motorcade_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Motorcade/Motorcade_SubmapPatch.Motorcade_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Motorcade_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Motorcade/Motorcade_SubmapPatch.Motorcade_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Motorcade_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/Motorcade/Motorcade_SubmapPatch.Motorcade_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+
+###
+### Carnivora
+###
+
+SparkLevelPatchEntry,(1,1,1,MotorcadeFestival_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/MotorcadeFestival/MotorcadeFestival_SubmapPatch.MotorcadeFestival_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,MotorcadeFestival_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_3/MotorcadeFestival/MotorcadeFestival_SubmapPatch.MotorcadeFestival_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+
+###
+### Tazendeer Ruins
+###
+
+SparkLevelPatchEntry,(1,1,1,Beach_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Beach/Beach_SubmapPatch.Beach_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Beach_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Beach/Beach_SubmapPatch.Beach_SubmapPatch:PersistentLevel.OakSpawner_2.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Beach_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Beach/Beach_SubmapPatch.Beach_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+
+###
+### Pyre of Stars
+###
+
+SparkLevelPatchEntry,(1,1,1,Crypt_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Crypt/Crypt_SubmapPatch.Crypt_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Crypt_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Crypt/Crypt_SubmapPatch.Crypt_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+
+###
+### Desolation's Edge
+###
+
+SparkLevelPatchEntry,(1,1,1,Desolate_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Desolate/Desolate_SubmapPatch.Desolate_SubmapPatch:PersistentLevel.OakSpawner_0.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Desolate_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Desolate/Desolate_SubmapPatch.Desolate_SubmapPatch:PersistentLevel.OakSpawner_1.SpawnerComponent,bEnabled,0,,True
+SparkLevelPatchEntry,(1,1,1,Desolate_P),/Game/PatchDLC/SubmapPatch/Maps/Zone_4/Desolate/Desolate_SubmapPatch.Desolate_SubmapPatch:PersistentLevel.OakSpawner_3.SpawnerComponent,bEnabled,0,,True
+
+@title Easy Entry to Fort Sunshine
+@version 1.0.0
+@author Apocalyptech
+@contact https://apocalyptech.com/contact.php
+@categories maps, qol
+
+@license Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+@license-url https://creativecommons.org/licenses/by-sa/4.0/
+
+@screenshot https://raw.githubusercontent.com/BLCM/bl3mods/master/Apocalyptech/qol/easy_entry_to_fort_sunshine/switch.png
+
+###
+### Adds a door-opening lever to the outside of Fort Sunshine, in Floodmoor Basin.
+### During the game plot, you'll still need to ride the lumber conveyors into the
+### fort in order to make progress, but the interior will be much easier to access
+### outside of that mission.
+###
+### This mod requires either OpenHotfixLoader or B3HM v1.0.2 (or higher)
+### to work properly.  Note that at time of release, B3HM v1.0.2 has not yet
+### been released.
+###
+### Generated by gen_easy_entry_to_fort_sunshine.py
+###
+
+# Create the new switch
+SparkEarlyLevelPatchEntry,(1,11,0,Wetlands_P),/Game/Maps/Zone_2/Wetlands,/Game/InteractiveObjects/Switches/Lever/Design,IO_Switch_Industrial_Prison,80,"0.000000,0.000000,0.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000"
+SparkEarlyLevelPatchEntry,(1,1,1,Wetlands_P),/Game/Maps/Zone_2/Wetlands/Wetlands_P.Wetlands_P:PersistentLevel.IO_Switch_Industrial_Prison_C_0.DefaultSceneRoot,RelativeLocation,0,,(X=34927.000000,Y=10709.000000,Z=3139.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Wetlands_P),/Game/Maps/Zone_2/Wetlands/Wetlands_P.Wetlands_P:PersistentLevel.IO_Switch_Industrial_Prison_C_0.DefaultSceneRoot,RelativeRotation,0,,(Pitch=0.000000,Yaw=67.716370,Roll=0.000000)
+SparkEarlyLevelPatchEntry,(1,1,1,Wetlands_P),/Game/Maps/Zone_2/Wetlands/Wetlands_P.Wetlands_P:PersistentLevel.IO_Switch_Industrial_Prison_C_0.DefaultSceneRoot,RelativeScale3D,0,,(X=1.000000,Y=1.000000,Z=1.000000)
+
+# Hook it up to the door
+SparkLevelPatchEntry,(1,1,0,Wetlands_P),/Game/Maps/Zone_2/Wetlands/Wetlands_P.Wetlands_P:PersistentLevel.IO_Switch_Industrial_Prison_C_0,On_SwitchUsed,0,,(Wetlands_M_EP12JakobsRebellion_C_11.BndEvt__IO_Switch_Circuit_Breaker_V_2_K2Node_ActorBoundEvent_0_On_SwitchUsed__DelegateSignature)
+SparkLevelPatchEntry,(1,1,0,Wetlands_P),/Game/Maps/Zone_2/Wetlands/Wetlands_P.Wetlands_P:PersistentLevel.IO_Switch_Industrial_Prison_C_0,SingleActivation,0,,False
