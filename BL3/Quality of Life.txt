@@ -1074,7 +1074,7 @@ SparkLevelPatchEntry,(1,1,0,Sanctuary3_P),/Game/UI/InteractionPrompt/UIData_Gold
 ### Hides the XP bar and the "Spend Skill/Guardian point" notification attached to it
 ###
 
-SparkPatchEntry,(1,2,0,),/Game/UI/HUD/UIData_HUDLayout_Character.UIData_HUDLayout_Character,xpBar,Scale,0,,(x=00.0,y=00.0)
+### SparkPatchEntry,(1,2,0,),/Game/UI/HUD/UIData_HUDLayout_Character.UIData_HUDLayout_Character,xpBar,Scale,0,,(x=00.0,y=00.0)
 
 @title No Self Splash Damage
 @version 1.0.0
