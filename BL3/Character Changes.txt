@@ -13,10 +13,6 @@
 ### SKILL AND ACTION SKILL FIXES ###
 ######################################
 
-### MOZE ###
-# Dakka Bear - Make description accurate to in-game effects
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Character/Augments/Augment_Core_2.Augment_Core_2:StatDataItems_UIStatData_OakPassiveAbilityAttributeInitializer,FormatText.string,0,,[skillbold]Iron Bear Damage:[/skillbold] +125%
-
 # Desperate Measures - Make it display Iron Bear/Cub damage.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C,AbilityDescription.string,0,,Moze’s [skillbold]Gun Damage[/skillbold] and [actionskill]Iron Bear's[/actionskill]/[actionskill]Iron Cub's[/actionskill] [skillbold]Hard Point Damage[/skillbold] are increased depending on how low their individual health is. The lower their health, the greater the increase.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C,StatDataItems,0,,(UIStatData_UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C.StatDataItems_UIStatData_OakPassiveAbilityAttribute',UIStatData_OakPassiveAbilityAttribute'/Game/PlayerCharacters/Gunner/_Shared/_Design/Passives/_Tree_UrsaCorps/LowHpDamage/PassiveSkill_Gunner_LowHPDamage.Default__PassiveSkill_Gunner_LowHPDamage_C.StatDataItems_UIStatData_OakPassiveAbilityAttributeIronBearDamage')
@@ -1053,7 +1049,3 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/I
 
 # Unweave the Rainbow - Add a note to the skill description saying that it receives Mayhem Scaling.
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PlayerCharacters/SirenBrawler/_DLC/Ixora/Passives/DLCSkill_05/Passive_Siren_DLCSkill_5.Default__Passive_Siren_DLCSkill_5_C,AbilityDescription.string,0,,Amara deals [skillbold]Bonus Damage of her attuned element[/skillbold] whenever she deals [skillbold]Melee Damage[/skillbold] or [skillbold]Splash Damage[/skillbold] to frozen enemies.<br><br>This skill receives [actionskill]Action Skill[/actionskill] [endgame]Mayhem Scaling[/endgame].
-
-
-
-
