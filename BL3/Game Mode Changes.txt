@@ -73,6 +73,8 @@ SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medi
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets.ModifierSets[5].Weight,0,,0
 ### Disables the 'Totally Radical' Medium mayhem modifier.
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets.ModifierSets[7].Weight,0,,0
+### Disables the 'Freeze Tag' Medium mayhem modifier.
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets.ModifierSets[1].Weight,0,,0
 ### Disables the 'Floor is Lava' Medium mayhem modifier.
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/Mayhem2/ModifierSets/ModSet_Mayhem2_Medium.ModSet_Mayhem2_Medium,ModifierSets.ModifierSets[0].Weight,0,,0
 ### Disables the 'Buddy System' Very Hard mayhem modifier.
